@@ -1,0 +1,19 @@
+JavaScriptを書く場所や読み込む場所はどこがいいのか？
+https://codeaid.jp/js-load/
+
+JavaScriptの使い方は主に2つあります。
+1 scriptタグを書いてその中にJavaScriptを書く
+
+2 別ファイルを用意してHTMLで読み込む
+
+確認方法
+HTML上では書いていてもブラウザーで読み込めているか気になりますね。
+正しく読み込めているか確認する方法ですが、
+1 ブラウザーのデベロッパーツールを開く
+2 "Network"を選択
+3 "JS"を選択
+
+※ただしこれは別ファイルを用意してHTMLで読み込むの方法でしか適用されないので注意してください。
+
+JavaScriptでconsole.log()を使うのはやめよう
+https://qiita.com/baby-degu/items/1046763163bc794870ea
